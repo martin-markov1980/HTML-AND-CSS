@@ -8,7 +8,7 @@
 
 #### 1. Introduction to HTML & CSS
   - What is HTML?
-  - Creating HTML Page;
+  - Creating HTML Page
   - HTML Common Elements
   - Headings, Paragraphs, Lists, Images, Links
   - HTML Terminology: Tags and Attributes
