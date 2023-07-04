@@ -1,0 +1,29 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+  padding: 20px;
+}
+
+article {
+  width: 55%;
+  display: inline-block;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+}
+
+aside {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside ul {
+  line-height: 1.5;
+}
