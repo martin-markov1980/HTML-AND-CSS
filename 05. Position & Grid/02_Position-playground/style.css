@@ -1,0 +1,35 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.viewport {
+  height: 50vh;
+  position: relative;
+}
+
+.viewport:nth-of-type(1) {
+  background-image: linear-gradient(to right, #2e67be, #0089d1, #00a1b0, #00b16a, #7eb700);
+}
+
+.viewport:nth-of-type(2) {
+  background-image: linear-gradient(to right, #be372e, #c04b23, #c05e16, #bd7008, #b78100);
+}
+
+.viewport .card {
+  display: block;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 100%;
+  height: auto
+}
+
+.card i {
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
