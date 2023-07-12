@@ -80,6 +80,7 @@ a {
   max-width: 44%;
   border-left: 2px solid lightgrey;
   vertical-align: top;
+  line-height: 1.5;
   font-style: italic;
   color: gray;
 }
