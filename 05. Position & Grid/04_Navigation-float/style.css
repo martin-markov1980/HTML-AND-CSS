@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(238, 238, 238);
+  padding: 80px 80px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 
+  "header header"
+  "aside main"
+  ;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
+a {
+  color: rgb(0, 102, 0);
+}
+
+.header {
+  border-bottom: solid black 2px;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+  grid-area: header;
+}
+
+.header .header__logo {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2em;
+  margin: 0;
+}
+
+.header .header__nav {
+  float: right;
+}
+
+.header .header__nav ul {
+  list-style: none;
+  margin: 0px;
+}
+
+.header .header__nav ul li {
+  display: inline-block;
+}
+
+.header .header__nav ul li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header .header__nav ul li a {
+  text-decoration: none;
+}
+
+.main {
+  grid-area: aside;
+  margin-right: 50px;
+}
+
+.article {
+  grid-area: main;
+}
+
+.article .article__quote_section p{
+  display: inline-block;
+  max-width: 50%;
+  margin-right: 16px;
+}
+
+.article .article__quote_section .article__quote {
+  font-family: Georgia, serif;
+  display: inline-block;
+  margin: 0px;
+  margin-top: 16px;
+  padding-left: 16px;
+  max-width: 44%;
+  border-left: 2px solid lightgrey;
+  vertical-align: top;
+  font-style: italic;
+  color: gray;
+}
+
+.article .article__quote_section .article__quote .article__quote_author_name {
+  display: block;
+  text-align: right;
+  padding: 22px 0px;
+}
+
+.article .article__image {
+  background-color: rgb(255, 255, 255);
+  border: solid 2px black;
+  padding: 6px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.article .article__image:nth-of-type(1) {
+  float: right;
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+.article .article__image:nth-of-type(2) {
+  float: left;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.aside a {
+  text-decoration: none;
+}
