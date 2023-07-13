@@ -1,0 +1,29 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 15px;
+  
+  border-radius: 50%;
+}
+
+ul li:hover i {
+  color: black;
+}
+
+ul li a {
+  background-color: lightgrey;
+  padding:20px 15px 15px 15px;
+  border-radius: 50%;
+  
+}
+
+ul li a i {
+  color: grey;
+  font-size: 1.5rem;
+}
